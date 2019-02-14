@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='coco', exp_name='ours_with_single_sentinel', nb_workers=4, sample_rl=False, sample_rl_nw=False)
+Loading "ours_with_single_sentinel" model trained with cross-entropy loss.
+Computing set contrallabity results.
+Blue_1 0.4781658977265435
+Bleu_2 0.33336476710179397
+Bleu_3 0.23540449992274096
+Bleu_4 0.16908062554152153
+METEOR 0.22598671984368526
+ROUGE_L 0.469264777676162
+CIDEr 1.5956117508519507
+SPICE 0.4090470333938951
+Noun IoU 0.7016254093354598

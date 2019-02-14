@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='flickr', exp_name='ours', nb_workers=4, sample_rl=False, sample_rl_nw=True)
+Loading "ours" model trained with CIDEr + NW optimization.
+Computing sequence contrallabity results.
+Blue_1 0.4043501599100964
+Bleu_2 0.265110236768992
+Bleu_3 0.17974917026202153
+Bleu_4 0.1251760198819223
+METEOR 0.16752754454577182
+ROUGE_L 0.3893010099445915
+CIDEr 0.8399142820520679
+SPICE 0.2349601932771132
+NW Alignment Score 0.2628088

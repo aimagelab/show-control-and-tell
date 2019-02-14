@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='flickr', exp_name='ours_without_visual_sentinel', nb_workers=4, sample_rl=True, sample_rl_nw=False)
+Loading "ours_without_visual_sentinel" model trained with CIDEr optimization.
+Computing sequence contrallabity results.
+Blue_1 0.3576169141444279
+Bleu_2 0.233551680296684
+Bleu_3 0.15857668914511647
+Bleu_4 0.1110336079519881
+METEOR 0.1546696124398773
+ROUGE_L 0.3676563197717845
+CIDEr 0.7496044755201622
+SPICE 0.22212330721785745
+NW Alignment Score 0.19684154

@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='coco', exp_name='ours', nb_workers=4, sample_rl=False, sample_rl_nw=False)
+Loading "ours" model trained with cross-entropy loss.
+Computing set contrallabity results.
+Blue_1 0.4860157262716602
+Bleu_2 0.34338048335584653
+Bleu_3 0.24459915208724436
+Bleu_4 0.17712866561224969
+METEOR 0.23168122074984845
+ROUGE_L 0.4802140374340215
+CIDEr 1.6825443097435389
+SPICE 0.4212346081556602
+Noun IoU 0.7137825847539679

@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='flickr', exp_name='ours_without_visual_sentinel', nb_workers=4, sample_rl=False, sample_rl_nw=False)
+Loading "ours_without_visual_sentinel" model trained with cross-entropy loss.
+Computing sequence contrallabity results.
+Blue_1 0.3277675653172581
+Bleu_2 0.21700313335534552
+Bleu_3 0.15064058344602524
+Bleu_4 0.1077927917256535
+METEOR 0.14899602554435198
+ROUGE_L 0.3540581465221032
+CIDEr 0.6931888974337095
+SPICE 0.22185537303544917
+NW Alignment Score 0.14201522

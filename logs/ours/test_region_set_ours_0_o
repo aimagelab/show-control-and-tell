@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='flickr', exp_name='ours', nb_workers=4, sample_rl=False, sample_rl_nw=False)
+Loading "ours" model trained with cross-entropy loss.
+Computing set contrallabity results.
+Blue_1 0.33101206368571684
+Bleu_2 0.21395896248609375
+Bleu_3 0.14391936789553095
+Bleu_4 0.09923437529189463
+METEOR 0.1490679594590132
+ROUGE_L 0.3534378539914335
+CIDEr 0.6728256833161405
+SPICE 0.22209039635272948
+Noun IoU 0.5268936468804699

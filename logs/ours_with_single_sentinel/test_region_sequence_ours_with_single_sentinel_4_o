@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='coco', exp_name='ours_with_single_sentinel', nb_workers=4, sample_rl=True, sample_rl_nw=False)
+Loading "ours_with_single_sentinel" model trained with CIDEr optimization.
+Computing sequence contrallabity results.
+Blue_1 0.5222546118069998
+Bleu_2 0.382230796238143
+Bleu_3 0.28498213519211785
+Bleu_4 0.2171821448580721
+METEOR 0.2526530619535355
+ROUGE_L 0.5450879579300264
+CIDEr 2.0255029792106063
+SPICE 0.47634538353548905
+NW Alignment Score 0.6063965

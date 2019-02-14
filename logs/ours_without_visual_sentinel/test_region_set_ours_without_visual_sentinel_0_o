@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='flickr', exp_name='ours_without_visual_sentinel', nb_workers=4, sample_rl=False, sample_rl_nw=False)
+Loading "ours_without_visual_sentinel" model trained with cross-entropy loss.
+Computing set contrallabity results.
+Blue_1 0.32564844485968747
+Bleu_2 0.20981354840522667
+Bleu_3 0.14060443837364453
+Bleu_4 0.09688061718412033
+METEOR 0.14507241754681727
+ROUGE_L 0.3438924595421764
+CIDEr 0.631308775372682
+SPICE 0.2096896705755457
+Noun IoU 0.5220735304383489

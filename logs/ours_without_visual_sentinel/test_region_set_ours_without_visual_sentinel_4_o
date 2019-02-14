@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='coco', exp_name='ours_without_visual_sentinel', nb_workers=4, sample_rl=True, sample_rl_nw=False)
+Loading "ours_without_visual_sentinel" model trained with CIDEr optimization.
+Computing set contrallabity results.
+Blue_1 0.5019803006229604
+Bleu_2 0.35566635822252746
+Bleu_3 0.25220344702053754
+Bleu_4 0.18133022634024018
+METEOR 0.23705953212780106
+ROUGE_L 0.4891707057454822
+CIDEr 1.724694128648419
+SPICE 0.4331510904291839
+Noun IoU 0.7424323274607801

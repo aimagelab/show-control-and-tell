@@ -1,0 +1,12 @@
+Namespace(batch_size=16, dataset='flickr', exp_name='ours_with_single_sentinel', nb_workers=4, sample_rl=False, sample_rl_nw=False)
+Loading "ours_with_single_sentinel" model trained with cross-entropy loss.
+Computing sequence contrallabity results.
+Blue_1 0.34903962708750463
+Bleu_2 0.22899801487529034
+Bleu_3 0.15682516307825214
+Bleu_4 0.11014989703378174
+METEOR 0.15510415767928293
+ROUGE_L 0.36309475511919176
+CIDEr 0.7169727785386698
+SPICE 0.2259323553538353
+NW Alignment Score 0.13426818
