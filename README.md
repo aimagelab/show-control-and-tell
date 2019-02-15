@@ -1,5 +1,5 @@
 # Show, Control and Tell
-This repository contains the reference code for the paper _[Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652.pdf)_.
+This repository contains the reference code for the paper _[Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652v2.pdf)_.
 
 Please cite with the following BibTeX:
 
