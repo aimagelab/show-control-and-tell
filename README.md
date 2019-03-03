@@ -1,16 +1,17 @@
 # Show, Control and Tell
-This repository contains the reference code for the paper _[Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652v2.pdf)_ (CVPR2019).
+This repository contains the reference code for the paper _[Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652v2.pdf)_ (CVPR 2019).
 
 Please cite with the following BibTeX:
 
 ```
 @inproceedings{cornia2019show,
-  title={Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions},
+  title={{Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions}},
   author={Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
   year={2019}
 }
 ```
+
 
 ![sample results](images/sample_results.png)
 
