@@ -1,5 +1,5 @@
 # Show, Control and Tell
-This repository contains the reference code for the paper _[Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652v2.pdf)_ (CVPR 2019).
+This repository contains the reference code for the paper _[Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions](https://arxiv.org/pdf/1811.10652.pdf)_ (CVPR 2019).
 
 Please cite with the following BibTeX:
 
@@ -7,7 +7,7 @@ Please cite with the following BibTeX:
 @inproceedings{cornia2019show,
   title={{Show, Control and Tell: A Framework for Generating Controllable and Grounded Captions}},
   author={Cornia, Marcella and Baraldi, Lorenzo and Cucchiara, Rita},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision and Pattern Recognition},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   year={2019}
 }
 ```
@@ -35,6 +35,8 @@ As before, download the annotations and metadata file [dataset_flickr.tgz](http:
 
 Download the pre-computed features file [flickr30k_detections.hdf5](http://imagelab.ing.unimore.it/releases/show-control-and-tell/flickr30k_detections.hdf5) (~13.1 GB) and place it under the `datasets/flickr` folder, which gets created after decompressing the annotation file.
 
+### Download from Google Drive
+A copy of all files is also available at this [Google Drive folder](https://drive.google.com/drive/folders/1kdOlOAfEeovy8kQbdbLTJNaOhRvTcP6q?usp=sharing).
 
 ## Evaluation
 To reproduce the results in the paper, download the pretrained model file [saved_models.tgz](http://imagelab.ing.unimore.it/releases/show-control-and-tell/saved_models.tgz) (~4 GB) and extract it in the code folder with `tar -xzvf saved_models.tgz`.
@@ -76,6 +78,10 @@ python test_region_set.py --dataset coco --exp_name ours --sample_rl_nw
 ### Expected output
 Under `logs/`, you may also find the expected output of all experiments. 
 
+## Training procedure
+The training code of our controllable captioning model will be available soon.
+
+![model](images/model.png)
 
 ## COCO Entities
 If you want to use only the annotations of our COCO Entities dataset, you can download the annotation file [coco_entities_release.json](http://imagelab.ing.unimore.it/releases/show-control-and-tell/coco_entities_release.json) (~403 MB).
@@ -111,7 +117,6 @@ An example of how to use the COCO Entities annotations can be found in the [coco
 [1] P. Anderson, X. He, C. Buehler, D. Teney, M. Johnson, S. Gould, and L. Zhang. Bottom-up and top-down attention for image captioning and visual question answering. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition_, 2018.
 
 [2] A. Karpathy and L. Fei-Fei. Deep visual-semantic alignments for generating image descriptions. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition_, 2015.
-
 
 ## Contact
 
