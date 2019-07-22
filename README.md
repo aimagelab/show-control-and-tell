@@ -79,7 +79,33 @@ python test_region_set.py --dataset coco --exp_name ours --sample_rl_nw
 Under `logs/`, you may also find the expected output of all experiments. 
 
 ## Training procedure
-The training code of our controllable captioning model will be available soon.
+Run `python train.py` using the following arguments:
+
+| Argument | Possible values |
+|------|------|
+| `--exp_name` | Experiment name |
+| `--batch_size` | Batch size (default: 100) |
+| `--lr` | Initial learning rate (default: 5e-4) |
+| `--nb_workers` | Number of workers (default: 0) |
+| `--sample_rl` | If used, the model will be trained with CIDEr optimization |
+| `--sample_rl_nw` | If used, the model will be trained with CIDEr + NW optimization |
+
+For example, to train the model with cross entropy, use:
+```
+python train.py --exp_name show_control_and_tell --batch_size 100 --lr 5e-4 
+```
+
+To train the model with CIDEr optimization (after training the model with cross entropy), use:
+```
+python train.py --exp_name show_control_and_tell --batch_size 100 --lr 5e-5 --sample_rl
+```
+
+To train the model with CIDEr + NW optimization (after training the model with cross entropy), use:
+```
+python train.py --exp_name show_control_and_tell --batch_size 100 --lr 5e-5 --sample_rl_nw
+```
+
+Note: the current training code only supports the use of the COCO Entities dataset.
 
 ![model](images/model.png)
 
