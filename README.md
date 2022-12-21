@@ -36,7 +36,7 @@ As before, download the annotations and metadata file [dataset_flickr.tgz](https
 Download the pre-computed features file [flickr30k_detections.hdf5](https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/flickr30k_detections.hdf5) (~13.1 GB) and place it under the `datasets/flickr` folder, which gets created after decompressing the annotation file.
 
 ## Evaluation
-To reproduce the results in the paper, download the pretrained model file [saved_models.tgz]https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/saved_models.tgz) (~4 GB) and extract it in the code folder with `tar -xzvf saved_models.tgz`.
+To reproduce the results in the paper, download the pretrained model file [saved_models.tgz](https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/saved_models.tgz) (~4 GB) and extract it in the code folder with `tar -xzvf saved_models.tgz`.
 
 ### Sequence controllability
 Run `python test_region_sequence.py` using the following arguments:
