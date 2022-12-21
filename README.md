@@ -31,7 +31,7 @@ Download the annotations and metadata file [dataset_coco.tgz](https://ailb-web.i
 Download the pre-computed features file [coco_detections.hdf5](https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/coco_detections.hdf5) (~53.5 GB) and place it under the `datasets/coco` folder, which gets created after decompressing the annotation file.
 
 ### Flickr30k Entities
-As before, download the annotations and metadata file [dataset_flickr.tgz]https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/dataset_flickr.tgz) (~32.8 MB) and extract it in the code folder using `tar -xzvf dataset_flickr.tgz`. 
+As before, download the annotations and metadata file [dataset_flickr.tgz](https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/dataset_flickr.tgz) (~32.8 MB) and extract it in the code folder using `tar -xzvf dataset_flickr.tgz`. 
 
 Download the pre-computed features file [flickr30k_detections.hdf5](https://ailb-web.ing.unimore.it/publicfiles/drive/CVPR%202019%20-%20Show,%20Control%20and%20Tell/flickr30k_detections.hdf5) (~13.1 GB) and place it under the `datasets/flickr` folder, which gets created after decompressing the annotation file.
 
